@@ -4,27 +4,58 @@
 }
 
 body{
-    color: white;
+    color: rgb(255, 255, 255);
+    background-image: url(../img/textura.jpg);
+
 }
 
 header{
-    background-color: #1D4EF0;
+    box-shadow: -5px 10px 15px rgb(102, 135, 242);
+    background-color: #0D2570;
     padding: 10px;
     align-items: center;
 }
 
-header ul{
+header li {
+    transition: 0.3s;
+}
+
+header li:hover {
+    font-size: 20px;
+}
+
+header ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
 }
 
-footer{
+main {
+    background-image: linear-gradient(to right, rgba(47, 62, 112, 0.7), rgba(13, 38, 112, 0.5), rgba(47, 62, 112, 0.7));
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+#contato, form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contato, div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #1D4EF0;
+    background-color: #0D2570;
     padding: 10px;
 }
