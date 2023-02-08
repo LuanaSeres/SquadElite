@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="./CSS/style.css">
     </head>
     <body>
-        <header>
+        <header>    
             <nav>
                 <ul>
                     <li><a>Início</a></li>
@@ -26,39 +26,43 @@
                 <p>Aqui você encontrará informações sobre o uso de HTML5 semântico para desenvolimento web.</p>
             </section>
 
-            <section id="sobre">
-                <h2>Sobre o HTML5 semântico</h2>
-                <p>L HTML5 semântico é uma evolução da línguagem HTML que permite aos desenvolvedores criar estruturas mais significativas e ricas em conteúdo para seus sites e aplicativos.</p>
-            </section>
+            <div class="pt1">
+                <div class="pt2">
+                    <section id="sobre">
+                        <h2 class="titulo-caixa">Sobre o HTML5 Semântico</h2>
+                        <p class="paragrafo-caixa">O HTML5 semântico é uma evolução da línguagem HTML que permite aos desenvolvedores criar estruturas mais significativas e ricas em conteúdo para seus sites e aplicativos.</p>
+                    </section>
 
-            <section id="linguagens">
-                <h2>Outras línguagens associadas</h2>
-                <ul>
-                    <li>HiperText Markup Linguage - HTML</li>
-                    <li>Cascading Style Sheet - CSS</li>
-                    <li>JavaScript - JS</li>
-                </ul>
-            </section>
+                    <section id="linguagens">
+                        <h2>Outras línguagens associadas</h2>
+                        <ul>
+                            <li>HiperText Markup Linguage - HTML</li>
+                            <li>Cascading Style Sheet - CSS</li>
+                            <li>JavaScript - JS</li>
+                        </ul>
+                        <img class="imagem" src="">
+                    </section>
+                </div>
+                <section id="contato">
+                    <h2 class="fale">Fale conosco</h2>
+                    <form>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Nome e sobrenome">
 
-            <section id="contatos">
-                <h2>Fale conosco</h2>
-                <form>
-                    <label for="nome">Nome</label>
-                    <input type="text" name="nome" id="nome" placeholder="Nome e sobrenome">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="prefixo@sulfixo.com">
 
-                    <label for="email">E-mail:</label>
-                    <input type="email" name="email" id="email" placeholder="prefixo@sulfixo.com">
+                        <label for="menssagem">Menssagem</label>
+                        <textarea name="menssagem" id="menssagem" rows="4"></textarea>
 
-                    <label for="menssagem">Menssagem</label>
-                    <textarea name="menssagem" id="menssagem"></textarea>
-
-                    <div>
-                        <input type="checkbox" name="checkbox" id="checkbox" checked>
-                        <label for="checkbox">Desejo receber informações sobre HTML5 por e-mail.</label>
-                    </div>
-                    <input id="botao" type="submit" value="Enviar">
-                </form>
-            </section>
+                        <div>
+                            <input type="checkbox" name="checkbox" id="checkbox" checked>
+                            <label for="checkbox">Desejo receber informações sobre HTML5 por e-mail.</label>
+                        </div>
+                        <input id="botao" type="submit" value="Enviar">
+                    </form>
+                </section>
+            </div>
         </main>
 
         <footer>
